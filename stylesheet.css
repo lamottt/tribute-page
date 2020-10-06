@@ -1,0 +1,170 @@
+body{
+  background-color: #4c101e;
+text-align: center;
+color: pink;
+font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+}
+.container{
+  display: grid;
+  grid-template-areas:
+  'header heade hea'
+  'pic tex tex'
+  'tet pict tes'
+  'cloth clothetxt clothes'
+  'foot foot foot'
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+a:hover {
+  color: maroon;
+}
+.alpha
+{ grid-area: header;
+  background-color: pink;
+  color: #333333;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+img {
+  border-radius: 8px;
+  width: 250px;
+  height: 300px;
+  transition: all .3s ease;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.beta
+{ grid-area: heade;
+ background-color: pink;
+ color: #333333;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ text-align: center;
+font-size: 20px
+}
+.delta
+{ grid-area: hea;
+  background-color: pink;
+  color:#333333;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+text-align: center;
+font-size: 20px
+}
+.epsilon
+{ grid-area: pic;
+  display: flex;
+  height: 300px;
+    justify-content: center;
+      margin: 1em;
+  background-color: #464646, 0.0;
+font-size: 20px
+}
+.zeta
+{ grid-area: tex;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 1em;
+  background-color: #c93c4b;
+font-size: 20px
+}
+.eta { grid-area: tet;
+  display: flex;
+  height: 300px;
+    justify-content: center;
+    border-radius: 20px;
+      margin: 1em;
+  background-color: #c93c4b;
+font-size: 20px
+}
+.hop{ grid-area: pict;
+  display: flex;
+  height: 300px;
+    justify-content: center;
+      margin: 1em;
+  background-color: #464646, 0.0;
+font-size: 20px
+}
+.wack{ grid-area: tes;
+  display: flex;
+  height: 300px;
+      justify-content: center;
+      border-radius: 20px;
+        margin: 1em;
+background-color: #c93c4b;
+font-size: 20px
+}
+.grim{ grid-area: cloth;
+  display: flex;
+  height: 300px;
+      justify-content: center;
+        margin: 1em;
+  background-color: #464646, 0.0;
+font-size: 20px
+}
+.sleet{ grid-area: clothetxt;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  border-radius: 20px;
+    margin: 1em;
+  background-color: #c93c4b;
+font-size: 20px
+}
+.skirt{ grid-area: clothes;
+  display: flex;
+  height: 300px;
+      justify-content: center;
+        margin: 1em;
+  background-color: #464646, 0.0;
+font-size: 20px
+}
+.footer{ grid-area: foot;
+    text-align: center;
+  background-color: #c93c4b;
+font-size: 20px
+}
+@media screen and (max-width : 700px){
+
+  .container{
+    display: grid;
+    grid-template-areas:
+    'header'
+     'heade'
+     'hea'
+    'pic'
+     'tex'
+    'tet'
+    'tes'
+     'pict'
+    'cloth '
+    'clothetxt'
+    'clothes'
+    'foot'
+}
+
+@media screen and (max-width : 400px) {
+  .container{
+    display: grid;
+    grid-template-areas:
+    'header'
+     'heade'
+     'hea'
+    'pic'
+     'tex'
+    'tet'
+    'tes'
+     'pict'
+    'cloth '
+    'clothetxt'
+    'clothes'
+    'foot'
+}
